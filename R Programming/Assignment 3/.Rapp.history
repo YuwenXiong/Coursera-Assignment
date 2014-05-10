@@ -1,0 +1,220 @@
+license
+license()
+install.package("swril")
+install.package("swirl")
+install.packages("swirl")
+set.mirror
+chooseCRANmirror()
+install.packages("swirl")
+ls()
+outcome <- read.csv("outcome-of-care-measures.csv")
+head(outcome)
+outcome[, 11]
+outcome[, 11] <- as.numeric(outcome[,11])
+outcome[, 11]
+hist(outcome[,11])
+outcome <- read.csv("outcome-of-care-measures.csv")
+outcome[1, 11]
+outcome[2, 11]
+outcome[, 11] <- as.numeric(as.numeric(outcome[,11]))
+hist(outcome[, 11])
+outcome[, 11]
+outcome <- read.csv("outcome-of-care-measures.csv")
+outcome[, 11] <- as.numeric(as.character(outcome[,11]))
+hist(outcome[, 11])
+outcome[, 11]
+state = "TX"
+outcome$state
+outcome$"state" == state
+outcome$"State" == state
+idx = outcome$"State" == state
+idx
+outcome[idx, "State"]
+outcome$11
+outcome[,11]
+sort(outcome[,11])
+min(outcome[,11])
+min(outcome[,11]!=NA)
+min(!is.na(outcome[,11]))
+min(outcome[!is.na(outcome[,11]),11])
+[a, b]min(outcome[!is.na(outcome[,11]),11])
+[a, b] = min(outcome[!is.na(outcome[,11]),11])
+?min
+which.min(outcome[!is.na(outcome[,11]),11])
+outcome[1652, 11]
+which.min(outcome[!is.na(outcome[,11]),11],rm = T)
+min(outcome[!is.na(outcome[,11]),11], na.rm = T)
+which.min(range(outcome[!is.na(outcome[,11]),11], na.rm = T))
+range(outcome[!is.na(outcome[,11]),11], na.rm = T)
+presidents[1:30]
+range(presidents, na.rm = T)
+presidents
+min(presidents)
+which.min(presidents)
+presidents(28)
+presidents[28]
+presidents[1:30]
+which.min(presidents)
+which.max(presidents)
+outcome[,11]
+which.min(outcome[,11])
+outcome[2850, 11]
+outcome = read.csv("outcome-of-care-measure.csv", colClasses = "character")
+outcome = read.csv("outcome-of-care-measures.csv", colClasses = "character")
+which.min(outcome[,11])
+which.min(outcome[,10])
+outcome[3975, 10]
+x = outcome$hert
+x
+isnull(x)
+isNull(x)
+x == NULL
+x == NUL
+equal
+equal(x, NULL)
+is.null(x)
+outcome$"Hospital 30-Day Death (Mortality) Rates from Heart Attack"
+outcome
+head(outcome)
+outcome$"Hospital.30.Day.Death..Mortality..Rates.from.Heart.Attack"
+outcome$"Hospital.30.Day.Death..Mortality..Rates.from.heart.attack"
+capitalize("heart attack")
+library(Hmisc)
+install.package(Hmisc)
+install.packages(Hmisc)
+tolower("hello")
+tolower("HELLO")
+capabilities("Hello world")
+"H" - 65
+"H" - "A"
+as.numeric("H" - "A")
+install.packages("Hmisc")
+library("Hmisc")
+capitalize("app store")
+to lower("Hospital 30-Day Death (Mortality) Rates from ")
+tolower("Hospital 30-Day Death (Mortality) Rates from ")
+names(outcome)
+tolower("Hospital.30.Day.Death..Mortality..Rates.from.Heart.Attack")
+tolower(name(outcome))
+tolower(names(outcome))
+source("best.R")
+best("TX", "heart attack")
+best("TX", "heart attack")
+name = "heart attack"
+chartr(' ', '.', name)
+names(outcome) = tolower(names(outcome))
+outcome$"hospital.30.day.death..mortality..rates.from.heart.attack"
+print("T")
+best("TX", "heart attack")
+best("TX", "heart attack")
+name = "heart.attack"
+name = paste("hospital.30.day.death..mortality..rates.from.", tolower(name), sep = "")
+outcome$name
+name
+name
+outcome[, name]
+outcome$name
+outcome$as.character(name)
+as.character(name)
+name
+class(name)
+best("TX", "heart attack")
+outcome[, name]
+best("TX", "heart attack")
+best("TX", "heart attack")
+source("best.R")
+best("TX", "heart attack")
+best("TX", "heart attack")
+best("TX", "heart attack")
+source("best.R")
+best("TX", "heart attack")
+source("best.R")
+best("TX", "heart attack")
+is.null(outcome[,name])
+source("best.R")
+best("TX", "heart attack")
+outcome[, "hello"]
+source("best.R")
+best("TX", "heart attack")
+source("best.R")
+best("TX", "heart attack")
+best("TX", "heart attack")
+source("best.R")
+best("TX", "heart attack")
+source("best.R")
+best("TX", "heart attack")
+source("best.R")
+best("TX", "heart attack")
+best("TX", "heart attack")
+source("best.R")
+best("TX", "heart attack")
+source("best.R")
+best("TX", "heart attack")
+name
+idx = outcome$"State" == "TX"
+which.min(outcome[name, idx])
+outcome[name, idx]
+outcome[idx, nae]
+outcome[idx, nae]
+source("best.R")
+best("TX", "heart attack")
+which.min(outcome[idx, name])
+idx
+idx = outcome$"State" == "TX"
+idx
+outcome$"State"
+idx
+is.null(idx)
+source("best.R")
+best("TX", "heart attack")
+is.logical(idx)
+idx
+is.empty.model(idx)
+length(idx)
+source("best.R")
+best("TX", "heart attack")
+best("TX", "heart failure")
+best("TX", "heart failure")
+source("best.R")
+source("best.R")
+best("TX", "heart failure")
+names(outcome)
+source("best.R")
+source("best.R")
+best("TX", "heart failure")
+best("TX", "heart attack")
+best("MD", "heart attack")
+best("BB", "heart attack")
+best("NY", "hert attack")
+name
+outcome$name
+outcome$"hospital.30.day.death..mortality..rates.from.heart.attack"
+outcome$hospital.30.day.death..mortality..rates.from.heart.attack
+names(outcome) == name
+idx = names(outcome) == name
+idx
+outcome$"state" == "BB"
+outcome$"state" == "BB"
+outcome[idx, "state"]
+id
+idx
+idx = outcome$"state" == "BB"
+outcome[idx, "state"]
+outcome[idx, "State"]
+outcome["State"]
+source("best.R")
+best("TX", "heart attack")
+best("MD", "pneumonia")
+best("BB", "heart attack")
+idx = outcome$"state" == "bb"
+idx
+outcome[idx,]
+outcome[idx, "state"]
+source("best.R")
+best("BB", "heart attack")
+best("NY", "hert attack")
+submit()
+source("submitscript3.R")
+submit()
+submit()
+submit()
