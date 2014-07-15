@@ -4,9 +4,9 @@ import urllib2 as urllib
 # See assignment1.html instructions or README for how to get these credentials
 
 api_key = "ecRvEstsIxNHmF3G8vwauBtQ7"
-api_secret = "	9McAlsAnCA505YXErMYocGViV56ZWk7fBmSx6dVilTzHPNkmQx"
+api_secret = "9McAlsAnCA505YXErMYocGViV56ZWk7fBmSx6dVilTzHPNkmQx"
 access_token_key = "616937421-kM924gbtRby0kw1FhY1Q7ruSKGkEkS2E2wiUftJP"
-access_token_secret = "	zknh1zNx9BvpD4SqWQMTpUOxUslLWvp1lAEegZYq3Smk3"
+access_token_secret = "zknh1zNx9BvpD4SqWQMTpUOxUslLWvp1lAEegZYq3Smk3"
 
 _debug = 0
 
